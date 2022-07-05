@@ -89,7 +89,8 @@
         "displayName": "Database"
       },
       "sku": {
-        "name": "Basic"
+        "name": "S0",
+        "tier": "Standard"
       },
       "properties": {
         "collation": "SQL_Latin1_General_CP1_CI_AS",
