@@ -6,12 +6,12 @@
   </a>
 
 
-# Valto Azure Github Repo
+# Valto Public Github Repo
 
-ARM templates
-* Sage Drive Hosting
-* Azure Lighthouse
-* Valto Blueprints
+###ARM templates
+* Customer Facing Deployments
+* Public Baseline Templates
+* Quick-Start Tempplates
 * Microsoft Sentinel
 
 ### Valto Website
