@@ -8,7 +8,7 @@
 
 # Valto Public Github Repo
 
-###ARM templates
+### ARM templates
 * Customer Facing Deployments
 * Public Baseline Templates
 * Quick-Start Tempplates
