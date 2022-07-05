@@ -55,7 +55,7 @@
     "dbAdministratorLoginPassword": {
       "type": "securestring",
       "metadata": {
-        "description": "Database admin user password"
+        "description": "Database admin user password - Your password cannot contain all or part of the login name, must be 8 characters in lenght.uppercase letters, English lowercase letters, numbers (0-9), and non-alphanumeric characters (!, $, #, %, etc.)"
       }
     },
     "dbName": {
