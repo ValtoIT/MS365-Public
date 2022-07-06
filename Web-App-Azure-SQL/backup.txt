@@ -57,34 +57,13 @@
       "metadata": {
         "description": "Location for all resources."
       }
-    },
-     "AppPlanName": {
-      "type": "string",
-      "defaultValue": "AppPlan-CustomerName",
-      "metadata": {
-        "description": "Name of the App Service Plan."
-      }
-    },
-      "SQLServer": {
-      "type": "string",
-      "defaultValue": "Azure-SQL-Server",
-      "metadata": {
-        "description": "Name of the The Azure SQL server."
-      }
-    },
-     "AppName": {
-      "type": "string",
-      "defaultValue": "UmbracoApp",
-      "metadata": {
-        "description": "Name of the Web App."
-      }
     }
   },
   "variables": {
-    "hostingPlanName": "[concat(parameters('AppPlanName'), '-addtoparam')]",
-    "websiteName": "[concat(parameters('AppName'), '-addtoparam')]",
-    "sqlserverName": "[concat(parameters('SQLServer'), '-addtoparam')]",
-    "databaseName": "umbracodb"
+    "hostingPlanName": "[format('hostingplan{0}', uniqueString(resourceGroup().id))]",
+    "websiteName": "[format('website{0}', uniqueString(resourceGroup().id))]",
+    "sqlserverName": "[format('sqlServer{0}', uniqueString(resourceGroup().id))]",
+    "databaseName": "sampledb"
   },
   "resources": [
     {
