@@ -3,7 +3,8 @@
 Microsoft 365 Demo Powershell
 =====================================
 
- - Valto 2020
+ - Valto 2023
+ - Updated by Robert Thomas
 
 #>
 
